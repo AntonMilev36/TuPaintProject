@@ -162,7 +162,10 @@ namespace TuPaintProject
 
         private void BtnClear_Click(object sender, EventArgs e)
         {
-            shapes.Clear();      
+            shapes.Clear();
+            undoStack.Clear();
+            redoStack.Clear();
+
             Invalidate();        
         }
 
