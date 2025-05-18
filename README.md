@@ -34,25 +34,6 @@ undoing, and redoing custom shapes like circles, rectangles, and triangles.
 
 ---
 
-## 📁 Project Structure
-
-TuPaintProject/
-│
-├── Shapes/
-│ ├── Shape.cs
-│ ├── Rectangle.cs
-│ ├── Circle.cs
-│ └── Triangle.cs
-│
-├── Commands/
-│ ├── ICommand.cs
-│ └── AddShapeCommand.cs
-│
-├── Form1.cs # Main UI logic
-├── Program.cs # Application entry point
-└── README.md
-
----
 
 ## 🔧 How It Works
 
@@ -83,8 +64,10 @@ TuPaintProject/
 
 ## 🚀 How to Run
 
-1. Clone the repo  
-   `git clone https://github.com/yourusername/TuPaintProject.git`
+1. Clone the repo 
+```bash
+   git clone https://github.com/yourusername/TuPaintProject.git
+```
 
 2. Open the solution in Visual Studio
 
